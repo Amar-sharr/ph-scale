@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.ph-scale {
+    width: 50%;
+    border: 2px solid #ccc;
+}
+
+.header {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.scale {
+    display: flex;
+    flex-direction: column;
+}
+
+.level {
+    padding: 8px 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.very-alkaline {
+    background-color: rgb(0, 136, 221);
+}
+
+.alkaline_one {
+    background-color: rgb(0, 149, 226);
+}
+
+.alkaline_two {
+    background-color: rgb(0, 160, 230);
+}
+
+.alkaline_three {
+    background-color: rgb(48, 170, 233);
+}
+
+.alkaline_four {
+    background-color: rgb(84, 182, 237);
+}
+
+.alkaline_five {
+    background-color: rgb(100, 190, 237);
+}
+
+.alkaline_six {
+    background-color: rgb(140, 202, 242);
+}
+
+.neutral {
+    background-color: rgb(0, 187, 136);
+}
+
+.acid_one {
+    background-color: rgb(254, 176, 204);
+}
+
+.acid_two {
+    background-color: rgb(255, 145, 185);
+}
+
+.acid_three {
+    background-color: rgb(241, 95, 149);
+}
+
+.acid_four {
+    background-color: rgb(249, 73, 137);
+}
+
+.acid_five {
+    background-color: rgb(255, 48, 124);
+}
+
+.acid_six {
+    background-color: rgb(252, 31, 112);
+}
+
+.very-acid {
+    background-color: rgb(235, 28, 104);
+}
